@@ -1,0 +1,16 @@
+schema {
+    query: Query
+}
+
+type Query {
+    foo: Foo!
+}
+
+type Foo {
+    id: ID!
+    bar: Bar
+}
+
+type Bar {
+    id: ID!
+}
