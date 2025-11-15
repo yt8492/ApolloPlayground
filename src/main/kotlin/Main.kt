@@ -9,5 +9,5 @@ fun main(): Unit = runBlocking {
     .dataOrThrow()
     .foo
     .bar
-    ?.id // bar is semanticNonNullField but this bar is nullable
+    ?.id // bar is @catch filed but this bar is nullable
 }

@@ -1,7 +1,7 @@
 query ExampleQuery {
     foo {
         id
-        bar {
+        bar @catch(to: THROW) {
             id
         }
     }
